@@ -1,0 +1,44 @@
+/* .slider{ */
+    /* display: flex;
+  margin: 2vmax auto;
+  width: 80%;
+  /* flex-wrap: wrap; */
+  /* justify-content: center;
+  max-width: 100%;
+  background-color: rgb(253, 248, 248); */
+  
+
+.button{
+    
+    position:absolute;
+    right:150px;
+    bottom:1px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:1px solid white;
+    border-radius: 12px;
+
+}
+.button:hover{
+    color:rgb(238, 79, 22);
+    background-color:transparent;
+    
+}
+.offerwall{
+    position:absolute;
+    bottom:85px;
+    right:0px;
+    left:750px;
+    width:50%;
+    border-top: 1px solid black;
+    font-size:50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(241, 229, 229);
+    border:none;
+    color:black;
+
+
+}
+.offerwall:hover{
+    color:rgb(238, 79, 22);    
+}

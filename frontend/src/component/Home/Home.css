@@ -1,0 +1,255 @@
+.banner {
+  background-image: url("../../images/maingif.gif");
+  /* background-image: url("https://tse2.mm.bing.net/th?id=OIP.Au6IiYk2JLpZ2JpsQug-MgHaEz&pid=Api&P=0"); */
+  /* background-image: url("https://source.unsplash.com/1600x900/?cosmetics,beautycosmetics,lipstick,blusher"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color:white;
+
+  /* color: rgb(254, 251, 251); */
+}
+
+.banner > h1 {
+  margin: 5vmax;
+  text-Shadow:0 0 5px  black, 0 0 7px black;
+  font: 600 2.5vmax "Roboto";
+  /* text-Shadow:0 0 3px rgb(25, 210, 195), 0 0 9px rgb(25, 210, 195); */
+  animation:mate 3s linear infinite;
+}
+@keyframes mate {
+  50%{
+    opacity: 0;
+  }
+  
+}
+.banner > h1:hover{
+  
+  color:rgb(249, 93, 36)
+}
+.banner > p {
+  font: 350 1.4vmax "Lucida Sans";
+  /* text-Shadow:0 0 3px rgb(25, 210, 195), 0 0 4px rgb(25, 210, 195) ; */
+  text-Shadow:0 0 3px black, 0 0 5px black ; 
+}
+.banner > P:hover{
+  
+  color:rgb(249, 93, 36)
+}
+.banner > a > button {
+  margin-bottom: 5vmax;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0;
+  padding: 1vmax;
+  transition: all 0.5s;
+  width: 9vmax;
+  font: 500 1vmax "Roboto";
+}
+.banner > a > button:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.banner::after {
+  content: "";
+  width: 100vw;
+  height: 100vmin;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  /* clip-path: polygon(100% 68%, 0 100%, 100% 100%); */
+  clip-path: polygon(100% 88%, 0 100%, 100% 100%);
+  max-width: 100%;
+}
+
+.homeHeading1 {
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.4vmax;
+  /* border-bottom: 1px solid rgba(21, 21, 21, 0.5); */
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 2vmax auto;
+  /* margin: 5vmax auto; */
+  color: black;
+ 
+  border-bottom:2px solid black
+
+}
+
+  
+
+
+.heading0{
+  
+	text-decoration: none;
+	background :rgb(6, 6, 6) ;
+	
+	color:white;
+	/* border: 2px solid black; */
+	padding: 10%;
+	font-size: 300%;
+  
+  /* text-Shadow:0 0 3px red, 0 0 10px red; */
+  text-align: right;
+  
+  
+}
+.heading00{
+  
+  /* -webkit-box-reflect: below 1px linear-gradient(transparent,black); */
+  color:#0e3742;
+  outline:none;
+  animation:blinker 1.5s linear infinite;
+  
+
+  
+}
+@keyframes blinker {
+0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+  color:#0e3742;
+  
+  text-shadow: none;
+}
+18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+  color:#fff;
+  text-shadow: 0 0 10px #03bcf4,
+             0 0 20px #03bcf4,
+             0 0 40px #03bcf4,
+             0 0 80px #03bcf4,
+            0 0 160px #03bcf4;
+} 
+}
+  
+
+.heading2{
+  
+	text-align :center;
+	background-color :rgb(8, 8, 8) ;
+	color:white;
+	border: 2px solid black;
+	padding:10%;
+  
+	font-size: 300%;
+  text-Shadow:0 0 3px rgb(25, 210, 195), 0 0 5px rgb(36, 238, 221);
+  
+}
+.heading22{
+  animation:animate 2s linear infinite;
+
+}
+@keyframes animate {
+  50%{
+    opacity: 0;
+  }
+  
+}
+
+.homeHeading {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  background-color: rgb(239, 246, 250);
+}
+
+.productCard {
+  width: 14vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  
+}
+
+.productCard > img {
+  width: 14vmax;
+}
+
+.productCard > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5vmax;
+  font: 300 0.7vmax "Roboto";
+}
+
+.productCard > p {
+  font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+
+.productCard > span {
+  margin: 0.5vmax;
+  color: tomato;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1vmax;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+
+  transform: translateY(-1vmax);
+}
+
+@media screen and (max-width: 600px) {
+  .productCard > p {
+    font-size: 1.7vmax;
+  }
+
+  .productCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+
+  .productCard > span {
+    font-size: 1.5vmax;
+  }
+
+  .productCard > div > span {
+    margin: 0 0.5vmax;
+    font: 300 1vmax "Roboto";
+  }
+  /* .slider{
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  background-color: rgb(253, 248, 248);
+  } */
+ 
+}
