@@ -1,7 +1,7 @@
 # MERN E-COMMERCE TUTORIAL
 
-Just check my blackbook for all details:
-
+Just check my blackbook for project Images and any other details:
+Blackbook pdf is given in the above repository
 # Prerequisite
 
 
