@@ -1,6 +1,7 @@
 # MERN E-COMMERCE TUTORIAL
 
-Hi! My name is **Pratham chapke**, I have created this project in mern 
+Just check my blackbook for all details:
+
 # Prerequisite
 
 
